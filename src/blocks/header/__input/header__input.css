@@ -1,0 +1,9 @@
+.header__input {
+  width: 80vw;
+}
+
+@media screen and (max-width: 350px) {
+  .header__input {
+    width: 48vw;
+  }
+}

@@ -1,0 +1,7 @@
+.header__search-container {
+  background-color: #d7d7d7;
+  height: 70px;
+  border-top: black 6px solid;
+  border-bottom: black 6px solid;
+  display: flex;
+}

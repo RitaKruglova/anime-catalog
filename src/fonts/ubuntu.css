@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu-Regular.eot');
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+        url('Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Ubuntu-Regular.woff2') format('woff2'),
+        url('Ubuntu-Regular.woff') format('woff'),
+        url('Ubuntu-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu-LightItalic.eot');
+    src: local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'),
+        url('Ubuntu-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Ubuntu-LightItalic.woff2') format('woff2'),
+        url('Ubuntu-LightItalic.woff') format('woff'),
+        url('Ubuntu-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+

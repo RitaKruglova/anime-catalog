@@ -1,0 +1,10 @@
+@import url(../fonts/ubuntu.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__background-container/header__background-container.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__search-container/header__searc-container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__form/header__form.css);
+@import url(../blocks/header/__input/header__input.css);
+@import url(../blocks/header/__button/header__button.css);

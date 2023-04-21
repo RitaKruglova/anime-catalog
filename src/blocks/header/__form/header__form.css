@@ -1,0 +1,19 @@
+.header__form {
+  width: 90vw;
+  display: flex;
+  height: 55%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 696px) {
+  .header__form {
+    width: 86vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__form {
+    width: 80vw;
+  }
+}
