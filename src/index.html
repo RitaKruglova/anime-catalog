@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Каталог аниме">
-  <meta name="keywords" content="Аниме, Каталог, Поиск">
-  <meta name="author" content="Маргарита Круглова">
+  <meta name="description" content="Anime catalog">
+  <meta name="keywords" content="Anime, Catalog, Search">
+  <meta name="author" content="Rita Kruglova">
   <link rel="stylesheet" href="./pages/index.css">
   <title>ANIME ITADAKEMASU</title>
 </head>
@@ -16,9 +16,9 @@
       <h1 class="header__title">ANIME ITADAKEMASU</h1>
     </div>
     <div class="header__search-container">
-      <img class="header__logo" src="../src/images/logo.png" alt="Лого">
+      <img class="header__logo" src="../src/images/logo.png" alt="Logo">
       <form class="header__form">
-        <input id="inputSearch" type="text" class="header__input header__input_type_search" minlength="2" placeholder="Введите название аниме">
+        <input id="inputSearch" type="text" class="header__input header__input_type_search" minlength="2" placeholder="Enter anime name">
         <span id="inputSearchError" class="header__input-error"></span>
         <button class="header__button" type="submit"></button>
       </form>
@@ -28,17 +28,17 @@
     <menu class="menu">
       <div class="menu__container">
         <div class="menu__settings">
-          <h3 class="menu__title">Фильтр аниме</h3>
+          <h3 class="menu__title">Filter</h3>
           <button type="button" class="menu__button"></button>
         </div>
         <form class="menu__form">
           <fieldset class="menu__fieldset">
-            <label class="menu__label" for="inputGenre">Жанр</label>
+            <label class="menu__label" for="inputGenre">Genre</label>
             <select id="inputGenre" class="menu__input menu__input_type_genre">
             </select>
-            <label class="menu__label" for="inputYear">Год</label>
+            <label class="menu__label" for="inputYear">Year</label>
             <input id="inputYear" type="number" class="menu__input menu__input_type_year" min="1907" max="2023">
-            <label class="menu__label" for="inputType">Тип</label>
+            <label class="menu__label" for="inputType">Type</label>
             <select id="inputType" class="menu__input menu__input_type_type">
             </select>
           </fieldset>
@@ -55,11 +55,12 @@
   <div class="popup">
     <img class="popup__image" src="#" alt="Обложка">
     <h3 class="popup__title"></h3>
-    <p class="popup__info">Год выпуска: <span class="popup__year"></span></p>
-    <p class="popup__info">Тип: <span class="popup__type"></span></p>
-    <p class="popup__info">Рейтинг: <span class="popup__rating"></span></p>
-    <p class="popup__info">Статус: <span class="popup__status"></span></p>
-    <p class="popup__info">Аннотация: <span class="popup__description"></span></p>
+    <p class="popup__info">Realise year: <span class="popup__year"></span></p>
+    <p class="popup__info">Type: <span class="popup__type"></span></p>
+    <p class="popup__info">Rating: <span class="popup__rating"></span></p>
+    <p class="popup__info">Status: <span class="popup__status"></span></p>
+    <p class="popup__info">Description: <span class="popup__description"></span></p>
   </div>
+  <script src="./pages/index.js"></script>
 </body>
 </html>
