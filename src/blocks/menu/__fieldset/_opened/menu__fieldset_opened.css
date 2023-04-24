@@ -1,0 +1,4 @@
+.menu__fieldset_opened {
+  visibility: visible;
+  opacity: 1;
+}

@@ -16,6 +16,7 @@
 @import url(../blocks/menu/__button/menu__button.css);
 @import url(../blocks/menu/__form/menu__form.css);
 @import url(../blocks/menu/__fieldset/menu__fieldset.css);
+@import url(../blocks/menu/__fieldset/_opened/menu__fieldset_opened.css);
 @import url(../blocks/menu/__label/menu__label.css);
 @import url(../blocks/menu/__input/menu__input.css);
 @import url(../blocks/anime/anime.css);
