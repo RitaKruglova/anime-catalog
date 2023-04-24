@@ -20,36 +20,40 @@
       <form class="header__form">
         <input id="inputSearch" type="text" class="header__input header__input_type_search" minlength="2" placeholder="Введите название аниме">
         <span id="inputSearchError" class="header__input-error"></span>
-        <button class="header__button" type="submit">Поиск</button>
+        <button class="header__button" type="submit"></button>
       </form>
     </div>
   </header>
   <main class="content">
-    <menu class="menu__container">
-      <div class="menu__title-container">
-        <h3 class="menu__title">Фильтр аниме</h3>
+    <menu class="menu">
+      <div class="menu__container">
+        <div class="menu__settings">
+          <h3 class="menu__title">Фильтр аниме</h3>
+          <button type="button" class="menu__button"></button>
+        </div>
         <form class="menu__form">
           <fieldset class="menu__fieldset">
-            <label class="menu__label" for="inputGenre">Выберите жанр</label>
+            <label class="menu__label" for="inputGenre">Жанр</label>
             <select id="inputGenre" class="menu__input menu__input_type_genre">
             </select>
-            <label class="menu__label" for="inputYear">Выберите год выпуска</label>
+            <label class="menu__label" for="inputYear">Год</label>
             <input id="inputYear" type="number" class="menu__input menu__input_type_year" min="1907" max="2023">
-            <label class="menu__label" for="inputType">Выберите тип аниме</label>
+            <label class="menu__label" for="inputType">Тип</label>
             <select id="inputType" class="menu__input menu__input_type_type">
             </select>
-            <button class="menu__button" type="submit">Найти</button>
           </fieldset>
         </form>
       </div>
     </menu>
-    <div class="anime__container">
+    <section class="anime">
 
-    </div>
+    </section>
   </main>
   <footer class="footer">
-    <img class="footer__logo" src="#" alt="Лого">
     <h5 class="footer__copyright">By Rita Kruglova 2023Ⓒ</h5>
   </footer>
+  <div class="popup">
+    
+  </div>
 </body>
 </html>

@@ -1,15 +1,18 @@
 .header__button {
   flex-shrink: 0;
-  width: 100px;
   padding: 0;
-  margin: 0 5px;
-  background-color: black;
-  color: white;
-  font-size: 16px;
+  margin: 0;
+  background-image: url(../../../images/search.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+  border: none;
+  background-color: #d7d7d7;
 }
 
-@media screen and (max-width: 350px) {
-  .header__button {
-    width: 80px;
-  }
+.header__button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }

@@ -1,0 +1,19 @@
+.menu__input {
+  height: 30px;
+  border: none;
+  width: 23vw;
+  margin-right: 29px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1020px) {
+  .menu__input {
+    margin-right: 12px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .menu__input {
+    width: 43vw;
+  }
+}

@@ -1,0 +1,17 @@
+.menu__label {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1020px) {
+  .menu__label {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .menu__label {
+    font-size: 25px;
+    margin-top: 8px;
+  }
+}

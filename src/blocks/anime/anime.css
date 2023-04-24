@@ -1,0 +1,10 @@
+.anime {
+  display: grid;
+  max-width: 880px;
+  grid-template-columns: repeat(auto-fit, 282px);
+  column-gap: 14px;
+  row-gap: 18px;
+  padding: 51px 0 0;
+  margin: 0 auto;
+  justify-content: center;
+}

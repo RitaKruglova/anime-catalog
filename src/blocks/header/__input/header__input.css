@@ -1,9 +1,13 @@
 .header__input {
-  width: 80vw;
+  width: 84vw;
+  margin-right: 5px;
+  min-width: 40px;
+  padding: 0;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 349px) {
   .header__input {
-    width: 48vw;
+    width: 60vw;
+    margin-left: 5px;
   }
 }
