@@ -1,7 +1,10 @@
 import {
   menuSetting,
-  menuButton
-} from '../utils/constants.js'
+  menuButton,
+  searchForm
+} from '../utils/constants.js';
+
+import Validator from '../components/Validator.js';
 
 fetch('https://api.jikan.moe/v4/anime?letter=Naruto&score=something')
 .then(res => {
@@ -10,6 +13,9 @@ fetch('https://api.jikan.moe/v4/anime?letter=Naruto&score=something')
 .then(data => {
   console.log(data)
 })
+
+const searchValidator = new Validator(searchForm, '.header__input', 'header__input_type_error');
+searchValidator.enableValidation();
 
 function getAnimeByName() {
 
