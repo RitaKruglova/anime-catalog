@@ -1,13 +1,12 @@
 .header__input {
-  width: 84vw;
-  margin-right: 5px;
-  min-width: 40px;
+  width: 100%;
   padding: 0;
+  font-size: 25px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
-@media screen and (max-width: 349px) {
-  .header__input {
-    width: 60vw;
-    margin-left: 5px;
-  }
+.header__input:focus {
+  outline: none;
 }

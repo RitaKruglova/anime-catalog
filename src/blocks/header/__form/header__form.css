@@ -1,19 +1,13 @@
 .header__form {
-  width: 90vw;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 31px;
+  column-gap: 12px;
   height: 55%;
-  margin: auto;
-  justify-content: space-between;
+  margin: auto 0;
 }
 
-@media screen and (max-width: 696px) {
+/* @media screen and (max-width: 350px) {
   .header__form {
-    width: 86vw;
+    width: 50vw;
   }
-}
-
-@media screen and (max-width: 500px) {
-  .header__form {
-    width: 80vw;
-  }
-}
+} */

@@ -1,0 +1,7 @@
+.header__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 0;
+  width: 100%;
+}
